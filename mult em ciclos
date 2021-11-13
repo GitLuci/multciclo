@@ -1,0 +1,7 @@
+num = int(input("Qual numero voce gostaria de calcular a tabuada ? "))
+voltas = 1
+numb = num
+while (voltas != 10):
+    num += numb
+    print(num)
+    voltas += 1
